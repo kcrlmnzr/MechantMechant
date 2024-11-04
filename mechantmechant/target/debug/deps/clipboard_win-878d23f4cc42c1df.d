@@ -1,0 +1,11 @@
+C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\libclipboard_win-878d23f4cc42c1df.rmeta: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src/lib.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\utils.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\formats.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\raw.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\image.rs
+
+C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\libclipboard_win-878d23f4cc42c1df.rlib: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src/lib.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\utils.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\formats.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\raw.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\image.rs
+
+C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\clipboard_win-878d23f4cc42c1df.d: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src/lib.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\utils.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\formats.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\raw.rs C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\image.rs
+
+C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src/lib.rs:
+C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\utils.rs:
+C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\formats.rs:
+C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\raw.rs:
+C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-2.2.0\src\image.rs:

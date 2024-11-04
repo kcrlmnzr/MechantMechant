@@ -1,1 +1,1 @@
-/home/carlogero/MechantMechant/mechantmechant/target/debug/mechantmechant: /home/carlogero/MechantMechant/mechantmechant/src/main.rs
+C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\mechantmechant.exe: C:\Users\Carla\projects\MechantMechant\mechantmechant\src\main.rs
