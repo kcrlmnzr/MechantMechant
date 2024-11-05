@@ -1,0 +1,43 @@
+# Ignorer tous les fichiers dans le dossier target
+mechantmechant/target/*
+
+# Exclusion du dossier de compilation release
+#!/target/release
+#mechantmechant/target/release/build
+#-> add l'exe manuellement
+mechantmechant/target/release/build/mechantmechant.exe
+
+
+
+# Fichiers de compilation
+**/*.rs.bk
+
+# Fichiers générés par Cargo
+/.cargo
+/.rustup
+Cargo.lock
+
+# Fichiers d’édition
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+
+# Fichiers de logs
+*.log
+
+# Fichiers de débogage
+*.dSYM/
+*.profdata
+
+# Fichiers de build pour OS spécifiques
+*.dll
+*.dylib
+*.exe
+*.lib
+*.so
+
+# Ignorer les métadonnées générées pour les IDE et éditeurs
+.idea/
+.vscode/
