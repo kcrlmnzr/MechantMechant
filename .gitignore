@@ -1,9 +1,13 @@
 # Ignorer tous les fichiers dans le dossier target
-/target/*
+mechantmechant/target/*
 
 # Exclusion du dossier de compilation release
 #!/target/release
-!/target/release/build
+#mechantmechant/target/release/build
+#-> add l'exe manuellement
+mechantmechant/target/release/build/mechantmechant.exe
+
+
 
 # Fichiers de compilation
 **/*.rs.bk

@@ -1,7 +1,0 @@
-C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\libscopeguard-bfb1cbd9a113baed.rmeta: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\scopeguard-1.2.0\src\lib.rs
-
-C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\libscopeguard-bfb1cbd9a113baed.rlib: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\scopeguard-1.2.0\src\lib.rs
-
-C:\Users\Carla\projects\MechantMechant\mechantmechant\target\debug\deps\scopeguard-bfb1cbd9a113baed.d: C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\scopeguard-1.2.0\src\lib.rs
-
-C:\Users\Carla\.cargo\registry\src\index.crates.io-6f17d22bba15001f\scopeguard-1.2.0\src\lib.rs:
