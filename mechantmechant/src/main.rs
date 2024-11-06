@@ -3,7 +3,8 @@ use std::fs::OpenOptions;
 use std::io::Write;
 use std::path::Path;
 use std::thread;
-use std::time::Duration;
+use std::time::{Duration, SystemTime};
+use chrono::Local;
 
 fn main() {
     let mut last_content = String::new();
@@ -12,8 +13,15 @@ fn main() {
             Ok(content) => {
                 if content != last_content {
                     let file_path = Path::new("clipboard_content.txt");
-                    let mut file = OpenOptions::new().append(true).create(true).open(file_path).expect("Unable to open file");
-                    writeln!(file, "{}", content).expect("Unable to write to file");
+                    let mut file = OpenOptions::new()
+                        .append(true)
+                        .create(true)
+                        .open(file_path)
+                        .expect("Unable to open file");
+                    
+                    let timestamp = Local::now().format("%Y-%m-%d %H:%M:%S").to_string();
+                    writeln!(file, "[{}] {}", timestamp, content).expect("Unable to write to file");
+                    
                     last_content = content;
                 }
             }
