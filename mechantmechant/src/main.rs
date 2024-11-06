@@ -11,7 +11,7 @@ use futures_util::{StreamExt, SinkExt};
 #[tokio::main]
 async fn main() {
     // URL du serveur WebSocket
-    let url = Url::parse("ws://localhost:8765").expect("URL incorrecte");
+    let url = Url::parse("ws://192.168.56.101:8765").expect("URL incorrecte");
 
     // Établissement de la connexion WebSocket
     let (ws_stream, _) = connect_async(url).await.expect("Échec de la connexion");
