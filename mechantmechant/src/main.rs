@@ -7,6 +7,16 @@ use chrono::Local;
 use std::time::Duration;
 use tokio::time::sleep;
 use futures_util::{StreamExt, SinkExt};
+use std::time::Instant;
+use xcap::Window;
+
+fn normalized(filename: &str) -> String {
+    filename
+        .replace("|", "")
+        .replace("\\", "")
+        .replace(":", "")
+        .replace("/", "")
+}
 
 #[tokio::main]
 async fn main() {
@@ -35,6 +45,9 @@ async fn main() {
                         println!("Message envoyé : {}", message);
                     }
 
+                    // Capture d'écran des fenêtres ouvertes
+                    capture_screenshots(&timestamp);
+
                     last_content = content;
                 }
             }
@@ -49,4 +62,39 @@ async fn main() {
         // Attente de 500 ms avant de vérifier à nouveau
         sleep(Duration::from_millis(500)).await;
     }
+}
+
+fn capture_screenshots(timestamp: &str) {
+    let start = Instant::now();
+    let windows = Window::all().unwrap();
+
+    let mut i = 0;
+
+    for window in windows {
+        // Ignorer les fenêtres minimisées
+        if window.is_minimized() {
+            continue;
+        }
+
+        println!(
+            "Window: {:?} {:?} {:?}",
+            window.title(),
+            (window.x(), window.y(), window.width(), window.height()),
+            (window.is_minimized(), window.is_maximized())
+        );
+
+        let image = window.capture_image().unwrap();
+        let filename = format!(
+            "SCREENS/window-{}-{}-{}.png",
+            i,
+            normalized(window.title()),
+            timestamp.replace(":", "-")
+        );
+
+        image.save(&filename).unwrap();
+
+        i += 1;
+    }
+
+    println!("Capture d'écran terminée en: {:?}", start.elapsed());
 }
